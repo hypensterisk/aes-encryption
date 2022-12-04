@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "AES Encryption: Encrypting Data With AES",
+  "short_name": "AES Encryption",
+  "description": "WebApp For Encrypting Data With AES",
+  "id": "/",
+  "start_url": "/",
+  "theme_color": "#0d6efd",
+  "background_color": "#212529",
+  "orientation": "portrait",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/src/assets/logo-64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/src/assets/logo-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/src/assets/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
