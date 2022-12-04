@@ -3,6 +3,7 @@
 import {StrictMode} from 'react'
 import {createRoot} from 'react-dom/client'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import App from './app'
 
 const container = document.getElementById('root')
 
@@ -12,7 +13,7 @@ const children = (
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='*' element={null}></Route>
+        <Route path='*' element={<App />}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>
