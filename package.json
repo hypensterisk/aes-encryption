@@ -16,7 +16,7 @@
     "AES"
   ],
   "author": "hypensterisk",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hypensterisk/aes-encryption/issues"
   },
