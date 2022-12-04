@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/hypensterisk/aes-encryption/issues"
   },
-  "homepage": "https://github.com/hypensterisk/aes-encryption#readme"
+  "homepage": "https://github.com/hypensterisk/aes-encryption#readme",
+  "devDependencies": {
+    "parcel": "^2.8.0"
+  }
 }
