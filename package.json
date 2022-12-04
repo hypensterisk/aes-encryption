@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/hypensterisk/aes-encryption.git"
   },
-  "keywords": [],
+  "keywords": [
+    "WebApp",
+    "Encryption",
+    "AES"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
