@@ -1,1 +1,13 @@
-@import '/node_modules/bootstrap/dist/css/bootstrap.css';
+@import '~bootstrap/scss/bootstrap';
+
+html {
+  @extend .h-100;
+}
+
+body {
+  @extend .h-100, .bg-dark;
+}
+
+#root {
+  @extend .d-flex, .flex-column, .h-100;
+}
