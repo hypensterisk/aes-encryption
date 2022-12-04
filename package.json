@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/hypensterisk/aes-encryption#readme",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.0",
+    "@parcel/transformer-webmanifest": "^2.8.0",
     "@types/bootstrap": "^5.2.6",
     "@types/crypto-js": "^4.1.1",
     "@types/react": "^18.0.26",
