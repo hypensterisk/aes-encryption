@@ -19,3 +19,11 @@ const children = (
 )
 
 root.render(children)
+
+if ('serviceWorker' in navigator) {
+  const scriptURL = new URL('/src/service-worker.ts', import.meta.url)
+  navigator.serviceWorker
+    .register(scriptURL, {type: 'module'})
+    .then((value) => console.info(value))
+    .catch((reason) => console.info(reason))
+}
