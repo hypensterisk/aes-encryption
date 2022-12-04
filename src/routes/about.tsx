@@ -4,7 +4,7 @@ import {Card} from 'react-bootstrap'
 
 export default function About() {
   return (
-    <Card bg='primary' body border='light' text='light'>
+    <Card bg='dark' body border='primary' text='light'>
       <Card.Title>About</Card.Title>
       <Card.Text>
         "AES Encryption" Is A Web Application For Encrypting And Decrypting Data
