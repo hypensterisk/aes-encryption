@@ -1,5 +1,7 @@
 /** @format */
 
-import Home from './home'
 import About from './about'
-export {Home, About}
+import Home from './home'
+import Notfound from './notfound'
+
+export {Home, About, Notfound}
